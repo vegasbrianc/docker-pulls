@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vegasbrianc/docker-pulls.svg?branch=master)](https://travis-ci.org/vegasbrianc/docker-pulls)
+
 # docker-pulls
 This is a docker-compose file that can be used with the [Prometheus Project](https://github.com/vegasbrianc/prometheus).
 
