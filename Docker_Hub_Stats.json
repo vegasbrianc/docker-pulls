@@ -90,10 +90,10 @@
           "steppedLine": false,
           "targets": [
             {
-              "expr": "docker_hub_pulls_total{image=\"ubuntu\"}",
+              "expr": "docker_hub_image_pulls_total{image=\"ubuntu\"}",
               "intervalFactor": 2,
               "legendFormat": "{{ image }}",
-              "metric": "docker_hub_pulls_total",
+              "metric": "docker_hub_image_pulls_total",
               "refId": "A",
               "step": 14400
             }
@@ -189,9 +189,9 @@
           },
           "targets": [
             {
-              "expr": "sum(docker_hub_pulls_total{image=\"ubuntu\"})",
+              "expr": "sum(docker_hub_image_pulls_total{image=\"ubuntu\"})",
               "intervalFactor": 2,
-              "metric": "docker_hub_pulls_total",
+              "metric": "docker_hub_image_pulls_total",
               "refId": "A",
               "step": 43200
             }
@@ -268,9 +268,9 @@
           },
           "targets": [
             {
-              "expr": "rate(docker_hub_pulls_total{image=\"ubuntu\"}[1m]) * 60 ",
+              "expr": "rate(docker_hub_image_pulls_total{image=\"ubuntu\"}[1m]) * 60 ",
               "intervalFactor": 2,
-              "metric": "docker_hub_pulls_total",
+              "metric": "docker_hub_image_pulls_total",
               "refId": "A",
               "step": 43200
             }
@@ -337,10 +337,10 @@
           "steppedLine": false,
           "targets": [
             {
-              "expr": "docker_hub_pulls_total{image=\"alpine\"}",
+              "expr": "docker_hub_image_pulls_total{image=\"alpine\"}",
               "intervalFactor": 2,
               "legendFormat": "{{ image }}",
-              "metric": "docker_hub_pulls_total",
+              "metric": "docker_hub_image_pulls_total",
               "refId": "A",
               "step": 14400
             }
@@ -436,9 +436,9 @@
           },
           "targets": [
             {
-              "expr": "sum(docker_hub_pulls_total{image=\"alpine\"})",
+              "expr": "sum(docker_hub_image_pulls_total{image=\"alpine\"})",
               "intervalFactor": 2,
-              "metric": "docker_hub_pulls_total",
+              "metric": "docker_hub_image_pulls_total",
               "refId": "A",
               "step": 43200
             }
@@ -515,9 +515,9 @@
           },
           "targets": [
             {
-              "expr": "rate(docker_hub_pulls_total{image=\"alpine\"}[1m]) * 60 ",
+              "expr": "rate(docker_hub_image_pulls_total{image=\"alpine\"}[1m]) * 60 ",
               "intervalFactor": 2,
-              "metric": "docker_hub_pulls_total",
+              "metric": "docker_hub_image_pulls_total",
               "refId": "A",
               "step": 43200
             }
@@ -582,10 +582,10 @@
           "steppedLine": false,
           "targets": [
             {
-              "expr": "docker_hub_pulls_total{image=\"cadvisor\"}",
+              "expr": "docker_hub_image_pulls_total{image=\"cadvisor\"}",
               "intervalFactor": 2,
               "legendFormat": "{{ image }}",
-              "metric": "docker_hub_pulls_total",
+              "metric": "docker_hub_image_pulls_total",
               "refId": "A",
               "step": 14400
             }
@@ -681,9 +681,9 @@
           },
           "targets": [
             {
-              "expr": "sum(docker_hub_pulls_total{image=\"cadvisor\"})",
+              "expr": "sum(docker_hub_image_pulls_total{image=\"cadvisor\"})",
               "intervalFactor": 2,
-              "metric": "docker_hub_pulls_total",
+              "metric": "docker_hub_image_pulls_total",
               "refId": "A",
               "step": 43200
             }
@@ -760,9 +760,9 @@
           },
           "targets": [
             {
-              "expr": "rate(docker_hub_pulls_total{image=\"cadvisor\"}[1m]) * 60 ",
+              "expr": "rate(docker_hub_image_pulls_total{image=\"cadvisor\"}[1m]) * 60 ",
               "intervalFactor": 2,
-              "metric": "docker_hub_pulls_total",
+              "metric": "docker_hub_image_pulls_total",
               "refId": "A",
               "step": 43200
             }
